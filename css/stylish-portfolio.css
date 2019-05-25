@@ -45,6 +45,16 @@ h6 {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.text-invis {
+  color: rgba(255, 255, 255, 0);
+  cursor: default;
+}
+
+.text-invis:hover {
+  color: rgba(255, 255, 255, 0);
+  cursor: default;
+}
+
 /* Map */
 .map {
   height: 30rem;
