@@ -383,5 +383,7 @@ a:hover, a:focus, a:active {
 }
 
 .text-secondary {
-  color: rgb(252, 107, 3) !important;
-}
+  background: linear-gradient(135deg, #f46b45 45%, #eea849 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}}
