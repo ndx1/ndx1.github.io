@@ -382,8 +382,22 @@ a:hover, a:focus, a:active {
   color: #1D809F !important;
 }
 
+/*Check bootstrap.css for mb-5*/
 .text-secondary {
-  background: linear-gradient(135deg, #f46b45 45%, #eea849 55%);
+  font-size: 5em;
+  letter-spacing: 10px;
+  background: linear-gradient(60deg,#f46b45 30%,#eea849 50%, #f46b45 70%);
+  background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}}
+  -webkit-animation: gradient 3s infinite linear;
+}   
+ 
+@-webkit-keyframes gradient {
+  from {
+    background-position: 200% auto;
+  }
+  to {
+    background-position: 200% center;
+  }
+}
