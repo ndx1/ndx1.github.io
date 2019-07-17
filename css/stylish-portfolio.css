@@ -311,6 +311,13 @@ h6 {
   }
 }
 
+.center-cropped {
+  object-fit: cover; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  height: 12em;
+  width: 16em;
+}
+
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -391,6 +398,13 @@ a:hover, a:focus, a:active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: gradient 3s infinite linear;
+}   
+
+.text-thirtiary {
+  font-size: 1em;
+  font-weight: 500;
+  letter-spacing: 8px;
+  color: #000000ab;
 }   
  
 @-webkit-keyframes gradient {
