@@ -393,20 +393,29 @@ a:hover, a:focus, a:active {
 .text-secondary {
   font-size: 5em;
   letter-spacing: 10px;
-  background: linear-gradient(60deg,#3b508a 20%,#9a4dd4 50%,#3b508a 80%)
+  background: linear-gradient(60deg,#3b508a 20%,#9a4dd4 50%,#3b508a 80%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation: gradient 3s infinite linear;
-}   
+}
+
+.frame-gradient {
+  background: linear-gradient(60deg,#3b508a 20%,#9a4dd4 50%,#3b508a 80%);
+  background-size: 200% auto;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-animation: gradient 3s infinite linear;
+}
+
 
 .text-thirtiary {
   font-size: 1em;
   font-weight: 500;
   letter-spacing: 8px;
   color: #000000ab;
-}   
- 
+}
+
 @-webkit-keyframes gradient {
   from {
     background-position: 200% auto;
