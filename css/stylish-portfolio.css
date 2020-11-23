@@ -393,7 +393,7 @@ a:hover, a:focus, a:active {
 .text-secondary {
   font-size: 5em;
   letter-spacing: 10px;
-  background: linear-gradient(60deg,#7F00FF 30%,#e100ff 50%,#7F00FF 70%);
+  background: linear-gradient(60deg,#3b508a 20%,#9a4dd4 50%,#3b508a 80%)
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
