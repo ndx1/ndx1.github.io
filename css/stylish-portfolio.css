@@ -401,13 +401,12 @@ a:hover, a:focus, a:active {
 }
 
 .frame-gradient {
-  background: linear-gradient(60deg,#3b508a 20%,#9a4dd4 50%,#3b508a 80%);
+  background: linear-gradient(60deg,#3b508a 0%,#9a4dd4 25%,#3b508a 50%);
   background-size: 200% auto;
   padding: 10px;
   border-radius: 10px;
   -webkit-animation: gradient 3s infinite linear;
 }
-
 
 .text-thirtiary {
   font-size: 1em;
@@ -417,6 +416,15 @@ a:hover, a:focus, a:active {
 }
 
 @-webkit-keyframes gradient {
+  from {
+    background-position: 200% auto;
+  }
+  to {
+    background-position: 200% center;
+  }
+}
+
+@-webkit-keyframes frame-gradient {
   from {
     background-position: 200% auto;
   }
