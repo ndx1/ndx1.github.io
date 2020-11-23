@@ -401,7 +401,7 @@ a:hover, a:focus, a:active {
 }
 
 .frame-gradient {
-  background: linear-gradient(60deg,#3b508a 0%,#9a4dd4 25%,#3b508a 50%);
+  background: linear-gradient(60deg,#3b508a 40%,#9a4dd4 50%,#3b508a 60%)
   background-size: 200% auto;
   padding: 10px;
   border-radius: 10px;
