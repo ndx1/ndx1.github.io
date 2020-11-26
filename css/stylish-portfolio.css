@@ -393,19 +393,19 @@ a:hover, a:focus, a:active {
 .text-secondary {
   font-size: 5em;
   letter-spacing: 10px;
-  background: linear-gradient(60deg,#3b508a 20%,#9a4dd4 50%,#3b508a 80%);
+  background: linear-gradient(60deg,#3b508a 20%,#f37777 50%,#3b508a 80%);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: gradient 3s infinite linear;
+  -webkit-animation: gradient 5s infinite linear;
 }
 
 .frame-gradient {
-  background: linear-gradient(60deg,#3b508a 40%,#9a4dd4 50%,#3b508a 60%);
+  background: linear-gradient(60deg,#3b508a 30%,#f37777 50%,#3b508a 70%);
   background-size: 200% auto;
   padding: 10px;
   border-radius: 10px;
-  -webkit-animation: gradient 3s infinite linear;
+  -webkit-animation: gradient 5s infinite linear;
 }
 
 .text-thirtiary {
